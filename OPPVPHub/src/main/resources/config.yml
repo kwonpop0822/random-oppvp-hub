@@ -1,0 +1,16 @@
+# Multiverse-Core에서 생성·관리할 랜덤 OP PVP 전용 월드 이름입니다.
+game:
+  world: "oppvp"
+  minimum-players: 2
+
+multiverse:
+  # 게임 월드가 아직 Bukkit에 로드되지 않았다면 `mv load <world>`를 시도합니다.
+  auto-load-world: true
+
+worldguard:
+  # WorldGuard가 설치돼 있고 아래 지역이 존재할 때에만 PVP 플래그를 관리합니다.
+  manage-region-pvp: true
+  region-id: "oppvp_arena"
+
+messages:
+  show-join-hint: true

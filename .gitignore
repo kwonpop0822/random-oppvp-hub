@@ -1,0 +1,13 @@
+# Maven build directories (release JARs are explicitly kept in /releases)
+**/target/
+**/build/
+
+# IDE and operating-system files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Server-generated runtime files
+plugins/*/config.yml
+plugins/*/logs/

@@ -1,0 +1,18 @@
+name: OPPVPHub
+version: 1.0.0
+main: org.kwonpop.oppvphub.OPPVPHubPlugin
+api-version: '1.21'
+author: kwonpop
+description: Random OP PVP integration hub for Paper servers
+softdepend: [RandomOPPVP, Multiverse-Core, WorldGuard, LuckPerms, CoreProtect]
+commands:
+  oppvphub:
+    description: Random OP PVP integration hub command
+    aliases: [ophub]
+permissions:
+  oppvphub.admin:
+    description: OPPVPHub administration
+    default: op
+  oppvphub.join:
+    description: Join the Random OP PVP world
+    default: true
